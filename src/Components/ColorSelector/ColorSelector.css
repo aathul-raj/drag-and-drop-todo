@@ -1,0 +1,48 @@
+/* Color Selector */
+
+.selector-container{
+    z-index: 10;
+    position: absolute;
+    background-color: white;
+    border-radius: 25px;
+    width: 15rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transform: translate(0,-130%);
+  }
+  
+  .selector-container .selector{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 25px;
+    margin: 1rem 0;
+  }
+  
+  .selector-container .selector:hover{
+    transform: scale(1.1);
+  }
+  
+  .selector-container .blue{
+    background-color: #2662E4;
+  }
+  
+  .selector-container .red{
+    background-color: #E42626;
+  }
+  
+  .selector-container .pink{
+    background-color: #E426DB;
+  }
+  
+  .selector-container .green{
+    background-color: #5AB298;
+  }
+  
+  .selector-container .purple{
+    background-color: #6C26E4;
+  }
+  
+  .selector-container .orange{
+    background-color: #E48326;
+  }
